@@ -1,0 +1,74 @@
+"2024-01-19 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h28m9s397ms365µs200ns).
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Display2", parameters={}
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#getStudentDetail2()
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.example.demo.Student.Student@7c81046a, com.example.demo.Student.Student@bdd7e9b]]
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/SaveData", parameters={}
+""2024-01-19 [http-nio-8888-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Jan 19 00:10:02 IST 2024, status=405, error=Method Not Allowed, path=/Student/SaveDat (truncated)...]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 405
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/Student/SaveData", parameters={}
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#SaveData(Student)
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.demo.Student.Student@67e6e06a]
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.demo.Student.Student@67e6e06a]
+""2024-01-19 [http-nio-8888-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/Student/SaveData", parameters={}
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#SaveData(Student)
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.demo.Student.Student@6754d02e]
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.demo.Student.Student@48cf5092]
+""2024-01-19 [http-nio-8888-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Display", parameters={}
+""2024-01-19 [http-nio-8888-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#getStudentDetail()
+""2024-01-19 [http-nio-8888-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.example.demo.Student.Student@2c72dbec, com.example.demo.Student.Student@1656b983, com.example.d (truncated)...]
+""2024-01-19 [http-nio-8888-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - PUT "/Student/Update", parameters={}
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#Update(Student)
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.demo.Student.Student@f7e825f]
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [com.example.demo.Student.Student@7bfcd4b5]
+""2024-01-19 [http-nio-8888-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Display", parameters={}
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.demo.Controller.Controller#getStudentDetail()
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Writing [[com.example.demo.Student.Student@26cd17b2, com.example.demo.Student.Student@5d7a806c, com.example.d (truncated)...]
+""2024-01-19 [http-nio-8888-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Delete/%220%22", parameters={}
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.servlet.resource.NoResourceFoundException: No static resource Student/Delete/%220%22.]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Jan 19 00:15:13 IST 2024, status=404, error=Not Found, path=/Student/Delete/%220%22}]
+""2024-01-19 [http-nio-8888-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Delete%7B0%7D", parameters={}
+""2024-01-19 [http-nio-8888-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Jan 19 00:15:28 IST 2024, status=405, error=Method Not Allowed, path=/Student/Delete% (truncated)...]
+""2024-01-19 [http-nio-8888-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 405
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/Student/Delete", parameters={}
+""2024-01-19 [http-nio-8888-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Fri Jan 19 00:15:41 IST 2024, status=405, error=Method Not Allowed, path=/Student/Delete}]
+""2024-01-19 [http-nio-8888-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 405
+""2024-01-19 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2024-01-19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 7 mappings in 'requestMappingHandlerMapping'
+""2024-01-19 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2024-01-19 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2024-01-19 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+"
